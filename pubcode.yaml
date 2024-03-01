@@ -1,0 +1,11 @@
+version: 1
+data_management_roles:
+  product_owner: Om Mishra
+product_information:
+  ministry: WLRS
+  product_acronym: 
+  product_description: Documentation repository to hold artifacts from NRM Architecture team around Architecture Patterns and Guidance for teams to follow.
+  product_name: NRM Architecture Patterns & Guidance
+  program_area: NRIDS ( Natural Resource Information & Digital Services)
+product_technology_information:
+  hosting_platforms: Private-Cloud-Openshift

@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nrm---architecture-patterns-&-guidance
+  title: NRM - Architecture Patterns & Guidance
+  description: Documentation repository to hold artifacts from NRM Architecture
+    team around Architecture Patterns and Guidance for teams to follow.
+  annotations:
+    github.com/project-slug: bcgov/devhub-user-test-participant-7
+    backstage.io/techdocs-ref: dir:.
+    bcgovpubcode.gov.bc.ca/ministry: WLRS
+    bcgovpubcode.gov.bc.ca/program_area: NRIDS ( Natural Resource Information & Digital Services)
+    bcgovpubcode.gov.bc.ca/product_name: NRM Architecture Patterns & Guidance
+    bcgovpubcode.gov.bc.ca/product_owner: Om Mishra
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: group:default/iit-arch

@@ -1,0 +1,13 @@
+site_name: "NRM - Architecture Patterns & Guidance"
+site_description: "Documentation repository to hold artifacts from NRM Architecture team around Architecture Patterns and Guidance for teams to follow."
+docs_dir: "docs"
+repo_url:  ""
+edit_uri: edit/main/docs/
+plugins:
+    - techdocs-core
+    - ezlinks
+markdown_extensions:
+    - markdown_inline_mermaid
+    - md_in_html
+    -   mkpatcher:
+            location: patcher.py
